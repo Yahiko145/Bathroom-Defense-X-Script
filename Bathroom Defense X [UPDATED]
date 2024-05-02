@@ -3,15 +3,15 @@
 ]]
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("[🎯EP 70 PART 2🔥] Bathroom Tower Defense X", "Serpent")
+local Window = Library.CreateLib("[🎯EP 73 PART 1🔥] Bathroom Tower Defense X", "Serpent")
 
-local Tab = Window:NewTab("BY IDKBRC")
+local Tab = Window:NewTab("BY CHUKELLYYY")
 
 local Section = Tab:NewSection("SEVENTEEN  SCRIPT")
 
 local Tab = Window:NewTab("MAIN")
 
-local Section = Tab:NewSection("ALL UNITS")
+local Section = Tab:NewSection("FREE UNITS")
 
 Section:NewButton("CyberStrider", "ButtonInfo", function() local function getHeadPosition() local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
 
@@ -37,9 +37,9 @@ Section:NewButton("TV-Gal Cost 400", "ButtonInfo", function() local function get
 
 local headPosition = getHeadPosition() if headPosition then local A_1 = "TV-Gal" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end end)
 
-Section:NewButton("Speakerguy Cost 150", "ButtonInfo", function() local function getHeadPosition() local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+Section:NewButton("Astroclaw Upgraded Supreme Cameraguy Cost ???", "ButtonInfo", function() local function getHeadPosition() local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
 
-local headPosition = getHeadPosition() if headPosition then local A_1 = "Speakerguy" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end end)
+local headPosition = getHeadPosition() if headPosition then local A_1 = "Astroclaw Upgraded Supreme Cameraguy" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end end)
 
 Section:NewButton("Speakergal Cost 250", "ButtonInfo", function() local function getHeadPosition() local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
 
