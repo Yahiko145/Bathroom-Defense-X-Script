@@ -1,6 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("[🎯EP 70 PART 2🔥] Bathroom Tower Defense X", "Serpent")
+local Window = Library.CreateLib("[Updated] Bathroom Tower Defense X", "Serpent")
 
 local Tab = Window:NewTab("BY CHUKELLYYY")
 
