@@ -1,8 +1,11 @@
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("[Updated] Bathroom Tower Defense X", "Serpent")
+local Window = Library.CreateLib("[🎯EP 70 PART 2🔥] Bathroom Tower Defense X", "Serpent")
 
-local Tab = Window:NewTab("BY CHUKELLYYY")
+local Tab = Window:NewTab("BY IDKBRC")
 
 local Section = Tab:NewSection("SEVENTEEN  SCRIPT")
 
@@ -10,9 +13,9 @@ local Tab = Window:NewTab("MAIN")
 
 local Section = Tab:NewSection("ALL UNITS")
 
-Section:NewButton("Astroclaw Upgraded Supreme Cameraguy Cost 800", "ButtonInfo", function() local function getHeadPosition() local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
+Section:NewButton("CyberStrider", "ButtonInfo", function() local function getHeadPosition() local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
 
-local headPosition = getHeadPosition() if headPosition then local A_1 = "Astroclaw Upgraded Supreme Cameraguy" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end
+local headPosition = getHeadPosition() if headPosition then local A_1 = "CyberStrider" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end
 
 end)
 
@@ -138,6 +141,4 @@ Section:NewButton("Frost Speakerguy cost ???", "ButtonInfo", function() local fu
 
 local headPosition = getHeadPosition() if headPosition then local A_1 = "Frost Speakerguy" local A_2 = CFrame.new(headPosition) local Event = game:GetService("ReplicatedStorage").Functions.SpawnTower Event:InvokeServer(A_1, A_2) end end)
 
-Section:NewButton("Red Nose TV-Guy cost 450", "ButtonInfo", function() local function getHeadPosition() local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstChild("Head") if head then return head.Position end end end return nil end
-
-local
+Section:NewButton("Red Nose TV-Guy cost 450", "ButtonInfo", function() local function getHeadPosition() local player = game.Players.LocalPlayer local character = player.Character if character then local humanoid = character:FindFirstChild("Humanoid") if humanoid then local head = character:FindFirstC
